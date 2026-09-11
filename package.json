@@ -1,0 +1,31 @@
+{
+  "name": "Video_Transcoding_App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.3.4",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.3.4",
+  "type": "module",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.163",
+    "tsx": "^4.23.13"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.1129.0",
+    "aws-lambda": "^1.0.7"
+  }
+}
