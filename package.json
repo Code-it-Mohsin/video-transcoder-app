@@ -22,10 +22,12 @@
   "type": "module",
   "devDependencies": {
     "@types/aws-lambda": "^8.10.163",
+    "@types/node": "^22.20.2",
     "tsx": "^4.23.13"
   },
   "dependencies": {
     "@aws-sdk/client-sqs": "^3.1129.0",
-    "aws-lambda": "^1.0.7"
+    "aws-lambda": "^1.0.7",
+    "dotenv": "^17.4.2"
   }
 }
