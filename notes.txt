@@ -1,0 +1,22 @@
+Create Cluster in ECS
+
+Then create Task definitions see image2
+Copy URI from ECR, in this case: 994327026129.dkr.ecr.us-east-1.amazonaws.com/video-transcoder
+
+What you've created essentially is that this task knows how to run your container
+
+distributed storage system
+
+advance unix environments
+system calls - one system call that no one has exploited makes the entire system fast
+
+Kafka - Kernel buffer - pipes
+
+postgres
+duckdb
+redis
+JunoDB
+RDS
+Tree line
+Turso DB - SQLlite on edge
+Time series database analytics
